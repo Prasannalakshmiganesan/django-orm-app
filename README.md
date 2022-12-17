@@ -3,9 +3,10 @@
 ## AIM
 To develop a Django application to store and retrieve data from a database using Object Relational Mapping(ORM).
 
-## Entity Relationship Diagram
+## Entity Relationship Diagram:
+![entity diagram](https://user-images.githubusercontent.com/118610231/208236521-2759e934-1a11-4bc0-b9d6-3ddfe020590d.png)
 
-![ENTITY](./images/entitydiagram.png)
+
 
 ## DESIGN STEPS
 
@@ -43,9 +44,11 @@ from .models import BankAccountMember,BankAccountAdmin
 admin.site.register(BankAccountMember,BankAccountAdmin)
 ```
 
-## OUTPUT
+## OUTPUT:
 
-![OUTPUT](./admin/bankaccount.png)
+![bankaccount](https://user-images.githubusercontent.com/118610231/208236613-4259ed0e-ccf2-4674-87c9-35961ded8e79.png)
 
 
-## RESULT
+
+## RESULT:
+Thus a Django application to store and retrieve data from a database using Object Relational Mapping(ORM) is developed.
